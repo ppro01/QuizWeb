@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz do Francisco</title>
+</head>
+<body>
+    <script>
+    var p1, p2, p3, p4, p5, p6, p7, p8, p9, p10;
+    var a = 0;
+    const s3="\n";
+    alert("Seja bem vindo ao quiz do francisco! \n\n(responda apenas com os números!)")
+    p1 = prompt("Questão 1: Quem é o professor de tpa?\n\n 1 - rodolfo \n 2 - elisângela \n 3 - lindo ");
+    if(p1 == 1){
+        alert("acertou!!!");
+        a++;
+    }else{
+        alert("errou!!!");
+    }
+    p2 = prompt("Questão 2: Quem são os professores de pw?\n\n 1 - lindo e fidelis\n 2 - elisângela e pamela\n 3 - wellington e rodolfo");
+    if(p2 == 3){
+        alert("acertou!!!");
+        a++;
+    }else{
+        alert("errou!!!");
+    }
+    p3 = prompt("Questão 3: Quem é o professor de aps?\n\n 1 - josé adriano\n 2 -elisângela \n 3 - fidelis");
+    if(p3 == 2){
+        alert("acertou!!!");
+        a++;
+    }else{
+        alert("errou!!!");
+    }
+    p4 = prompt("Questão 4: Quem é o professor de bd?\n\n 1 - iury \n 2 - lindo \n 3 - cleiton");
+    if(p4 == 1){
+        alert("acertou!!!");
+        a++;
+    }else{
+        alert("errou!!!");
+    }
+    p5 = prompt("Questão 5: Quem é o professor de português?\n\n 1 - fidelis \n 2 - júlio \n 3 - pamela ");
+    if(p5 == 1){
+        alert("acertou!!!");
+        a++;
+    }else{
+        alert("errou!!!");
+    }
+    p6 = prompt("Questão 6: Quem é o professor de matemática?\n\n 1 - wellington\n 2 - cleiton\n 3 - lindo");
+    if(p6 == 3){
+        alert("acertou!!!");
+        a++;
+    }else{
+        alert("errou!!!");
+    }
+    p7 = prompt("Questão 7: A matéria EAMT é dada por quais professores?\n\n 1 - mário e lindo\n 2 - pamela e júlio\n 3 - rodolfo e elisângela");
+    if(p7 == 1){
+        alert("acertou!!!");
+        a++;
+    }else{
+        alert("errou!!!");
+    }
+    p8 = prompt("Questão 8: A materia Ed. Fis. é dada por qual professor?\n\n 1 - júlio \n 2 - cleiton \n 3 - iury");
+    if(p8 == 2){
+        alert("acertou!!!");
+        a++;
+    }else{
+        alert("errou!!!");
+    }
+    p9 = prompt("Questão 9: A materia EANCT é dada por qual professor?\n\n 1 - wellington \n 2 - júlio \n 3 - lindo");
+    if(p9 == 2){
+        alert("acertou!!!");
+        a++;
+    }else{
+        alert("errou!!!");
+    }
+    p10 = prompt("Questão 10: A materia Design Digital é dada por qual professor?\n\n 1 - lindo \n 2 - iury\n 3 - adriana");
+    if(p10 == 2){
+        alert("acertou!!!");
+        a++;
+    }else{
+        alert("errou!!!");
+    }
+    if(a == 10){
+        document.write("<h1>Parabéns você acertou as "+a+" questões!!!!</h1><br>");
+    }else if(a >= 1){
+        document.write("<h1>Boa tentativa, você acertou "+a+", tente acertar todas da próxima vez!</h1><br>");
+    }else if(a == 0){
+        document.write("<h1>você errou todas... tente novamente!</h1><br>");
+    }
+    if(p1 == 1){
+        document.write("Questao 1: Qual o professor de tpa? ✓<br><br>")
+    }else{
+        document.write("Questao 1: Qual o professor de tpa? X Você digitou "+p1+"<br> a resposta correta é: 1<br><br>")
+    }
+    if(p2 == 3){
+        document.write("Questão 2: Quem são os professores de pw? ✓<br><br>")
+    }else{
+        document.write("Questão 2: Quem são os professores de pw? X Você digitou "+p2+"<br> a resposta correta é: 3<br><br>")
+    }
+    if(p3 == 2){
+        document.write("Questão 3: Quem é o professor de aps? ✓<br><br>")
+    }else{
+        document.write("Questão 3: Quem é o professor de aps?  X Você digitou "+p3+"<br> a resposta correta é: 2<br><br>")
+    }
+    if(p4 == 1){
+        document.write("Questão 4: Quem é o professor de bd? ✓<br><br>")
+    }else{
+        document.write("Questão 4: Quem é o professor de bd?  X Você digitou "+p4+"<br> a resposta correta é: 1<br><br>")
+    }
+    if(p5 == 1){
+        document.write("Questão 5: Quem é o professor de português? ✓<br><br>")
+    }else{
+        document.write("Questão 5: Quem é o professor de português?  X Você digitou "+p5+"<br> a resposta correta é: 1<br><br>")
+    }
+    if(p6 == 3){
+        document.write("Questão 6: Quem é o professor de matemática? ✓<br><br>")
+    }else{
+        document.write("Questão 6: Quem é o professor de matemática?  X Você digitou "+p6+"<br> a resposta correta é: 3<br><br>")
+    }
+    if(p7 == 1){
+        document.write("Questão 7: A matéria EAMT é dada por quais professores? ✓<br><br>")
+    }else{
+        document.write("Questão 7: A matéria EAMT é dada por quais professores?  X Você digitou "+p7+"<br> a resposta correta é: 1<br><br>")
+    }
+    if(p8 == 2){
+        document.write("Questão 8: A materia Ed. Fis. é dada por qual professor? ✓<br><br>")
+    }else{
+        document.write("Questão 8: A materia Ed. Fis. é dada por qual professor?  X Você digitou "+p8+"<br> a resposta correta é: 2<br><br>")
+    }
+    if(p9 == 2){
+        document.write("Questão 9: A materia EANCT é dada por qual professor? ✓<br><br>")
+    }else{
+        document.write("Questão 9: A materia EANCT é dada por qual professor?  X Você digitou "+p9+"<br> a resposta correta é: 2<br><br>")
+    }
+    if(p10 == 2){
+        document.write("Questão 10: A materia Design Digital é dada por qual professor? ✓<br><br>")
+    }else{
+        document.write("Questão 10: A materia Design Digital é dada por qual professor? X Você digitou "+p10+"<br> a resposta correta é: 2<br><br>")
+    }
+    </script>
+    <h4>o nome do site é Quiz do Francisco, mas ele foi feio com a Colaboração de Patrick D.<br> Obrigado por utilizar nossa página!</h4>
+</body>
+</html>
